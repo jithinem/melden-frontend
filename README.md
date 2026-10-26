@@ -18,7 +18,7 @@ npm install
 Create a `.env` file in `melden-backend` and set the connection string for your local PostgreSQL database:
 
 ```env
-DATABASE_URL=postgresql://postgres:undertaker@localhost:5432/melden_db?schema=public
+DATABASE_URL=postgresql://postgres:root@localhost:5432/melden_db?schema=public
 PORT=5001
 ```
 
